@@ -52,4 +52,6 @@ $app->singleton(
 |
 */
 
+$app->usePublicPath(base_path('html'));
+
 return $app;
